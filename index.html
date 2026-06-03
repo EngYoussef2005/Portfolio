@@ -13,7 +13,363 @@
 <!-- ================= NAVBAR ================= -->
 <header class="header">
   <div class="container nav-container">
-    <a href="#" class="logo">Portfolio</a>
+    <a href="#" class="logo">Portfolio</a><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youssef Ghoneim</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="header">
+  <div class="container nav-container">
+    <a href="#home" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i id="theme-icon" class="fa-regular fa-sun"></i>
+      </button>
+      <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Youssef Ghoneim</h1>
+      <h2 class="hero-title">
+        <span class="typed-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        I build modern, responsive and high-performance web applications
+        using HTML, CSS, JavaScript and modern frontend tools.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn"><i class="fa-solid fa-eye"></i> View Projects</a>
+        <a href="#contact" class="btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/EngYoussef2005" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/youssef-ghoneim-373927338" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/me/" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://wa.me/201558132185" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/youssef__ghoneim/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="hero-image-wrapper">
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="glow-bg"></div>
+        <img src="img/youssef.jpeg" alt="Youssef Ghoneim">
+        <div class="badge badge-1"><i class="fa-brands fa-html5"></i> HTML</div>
+        <div class="badge badge-2"><i class="fa-brands fa-js"></i> JS</div>
+        <div class="badge badge-3"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-down">
+    <a href="#about" title="about"><i class="fa-solid fa-chevron-down"></i></a>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about section" id="about">
+  <div class="container">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-box">
+        <p>
+          I'm Youssef, a third-year IT student at Mansoura University, passionate about Frontend Development.
+          I focus on building clean, responsive, and user-friendly interfaces.
+          My core skills include HTML, CSS, and JavaScript.
+          I'm always excited to learn new tools and take on challenges that push my coding journey forward.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <h3>1+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat">
+            <h3>6+</h3>
+            <p>Projects Done</p>
+          </div>
+          <div class="stat">
+            <h3>2+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="skills section" id="skills">
+  <div class="container">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+      <div class="skill"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+      <div class="skill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services section" id="services">
+  <div class="container">
+    <h2 class="section-title">My <span>Services</span></h2>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Frontend Development</h3>
+        <p>Building fast, responsive web apps using HTML, CSS and modern JavaScript with clean and maintainable code.</p>
+        <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+        <h3>Responsive Design</h3>
+        <p>Crafting pixel-perfect interfaces that look stunning on every device from mobile to desktop.</p>
+        <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Designing clean, intuitive user experiences with attention to detail, color, and typography.</p>
+        <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+        <h3>Performance Optimization</h3>
+        <p>Improving web performance and Core Web Vitals for faster load times and better user experience.</p>
+        <a href="#contact" class="service-link">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects section" id="projects">
+  <div class="container">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Portfolio.png" alt="Portfolio project">
+          <div class="project-overlay">
+            <a href="https://youssef-ghoneim.vercel.app" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/Portfolio" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>My Personal Portfolio</h3>
+          <p>Personal portfolio website built with HTML, CSS & Vanilla JavaScript. Featuring smooth animations, dark/light mode, and responsive design.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Tacus.png" alt="Tacus project">
+          <div class="project-overlay">
+            <a href="https://engyoussef2005.github.io/Tacus" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/Tacus" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Tacus</h3>
+          <p>The Little Taco Shop is a simple multi-page restaurant website built with HTML and CSS, featuring a home page with a menu table, store hours, and a contact form.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Tamplate-4.png" alt="Template 4 project">
+          <div class="project-overlay">
+            <a href="https://engyoussef2005.github.io/HTML_And_CSS_Template4" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/HTML_And_CSS_Template4" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Template 4</h3>
+          <p>Interactive dashboard with dark mode and customizable color settings.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Tamplate-3.png" alt="Template 3 project">
+          <div class="project-overlay">
+            <a href="https://engyoussef2005.github.io/HTML_And_CSS_Template3" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/HTML_And_CSS_Template3" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Template 3</h3>
+          <p>Flexible multi-purpose template with advanced CSS Grid system.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Tamplate-2.png" alt="Template 2 project">
+          <div class="project-overlay">
+            <a href="https://engyoussef2005.github.io/HTML_And_CSS_Template2" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/HTML_And_CSS_Template2" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Template 2</h3>
+          <p>Creative portfolio template for services and tech companies using modern layout.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/Tamplate-1.png" alt="Template 1 project">
+          <div class="project-overlay">
+            <a href="https://engyoussef2005.github.io/HTML_And_CSS_Template1" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-solid fa-eye"></i> Live</a>
+            <a href="https://github.com/EngYoussef2005/HTML_And_CSS_Template1" target="_blank" rel="noopener noreferrer" class="overlay-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Template 1</h3>
+          <p>Responsive brand agency template with clean design and smooth hover effects.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience section" id="experience">
+  <div class="container">
+    <h2 class="section-title">My <span>Experience</span></h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Frontend Developer</h3>
+          <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2025 - Present</span>
+          <p>Working on HTML, CSS and JS applications.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Freelancer</h3>
+          <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+          <p>Built multiple landing pages and UI projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>yossefsamir12468@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>+20 155 813 2185</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Location</h4>
+            <p>Egypt</p>
+          </div>
+        </div>
+        <div class="contact-social">
+          <a href="https://github.com/EngYoussef2005" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/youssef-ghoneim-373927338" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/201558132185" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <p>© 2026 All Rights Reserved — <span>Youssef Ghoneim</span></p>
+  <a href="#home" class="back-to-top" title="#home"><i class="fa-solid fa-chevron-up"></i></a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
     <nav class="navbar">
       <a href="#home">Home</a>
