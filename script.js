@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navbar.classList.toggle("active");
   });
 
-  // إغلاق المنيو لما تضغط على لينك
+  
   navbar?.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", () => navbar.classList.remove("active"));
   });
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeIcon   = document.getElementById("theme-icon");
   const body        = document.body;
 
-  // تحميل الثيم المحفوظ
+  
   if (localStorage.getItem("theme") === "light") {
     body.classList.add("light-mode");
     themeIcon?.classList.replace("fa-sun", "fa-moon");
